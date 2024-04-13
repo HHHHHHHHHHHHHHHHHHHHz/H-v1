@@ -1,0 +1,500 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local ClearallChildren = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local lul = Instance.new("TextButton")
+
+-- Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.457703918, 0, 0.413151354, 0)
+Frame.Size = UDim2.new(0, 610, 0, 285)
+Frame.Active = true
+Frame.Draggable = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, 0.0807017535, 0)
+ImageLabel.Size = UDim2.new(0, 610, 0, 262)
+ImageLabel.Image = "rbxassetid://17110031023"
+ImageLabel.ImageTransparency = 0.510
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 571, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "HHHHHHHHHHHHHHHHHHHH V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton.BackgroundTransparency = 0.300
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0118417209, 0, 0.136842102, 0)
+TextButton.Size = UDim2.new(0, 188, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Decal"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_2.BackgroundTransparency = 0.300
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0118417209, 0, 0.55438596, 0)
+TextButton_2.Size = UDim2.new(0, 188, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "HHHHHH theme"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_3.BackgroundTransparency = 0.300
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0118417209, 0, 0.347368419, 0)
+TextButton_3.Size = UDim2.new(0, 188, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Sky"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_4.BackgroundTransparency = 0.300
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0118417209, 0, 0.768421054, 0)
+TextButton_4.Size = UDim2.new(0, 188, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "FNAS face"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_5.BackgroundTransparency = 0.300
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.339993626, 0, 0.136842102, 0)
+TextButton_5.Size = UDim2.new(0, 188, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Message"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+ClearallChildren.Name = "Clear all Children"
+ClearallChildren.Parent = Frame
+ClearallChildren.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+ClearallChildren.BackgroundTransparency = 0.300
+ClearallChildren.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ClearallChildren.BorderSizePixel = 0
+ClearallChildren.Position = UDim2.new(0.339993626, 0, 0.347368419, 0)
+ClearallChildren.Size = UDim2.new(0, 188, 0, 50)
+ClearallChildren.Font = Enum.Font.SourceSans
+ClearallChildren.Text = "Clear all Children"
+ClearallChildren.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClearallChildren.TextScaled = true
+ClearallChildren.TextSize = 14.000
+ClearallChildren.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_6.BackgroundTransparency = 0.300
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.339993626, 0, 0.557894766, 0)
+TextButton_6.Size = UDim2.new(0, 188, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "KababTerminator Sky"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_7.BackgroundTransparency = 0.300
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.339993626, 0, 0.768421054, 0)
+TextButton_7.Size = UDim2.new(0, 188, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "KababTerminator Decal"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_8.BackgroundTransparency = 0.300
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.668020964, 0, 0.136842102, 0)
+TextButton_8.Size = UDim2.new(0, 188, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "KababTerminator Theme"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_9.BackgroundTransparency = 0.300
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.668020964, 0, 0.347368419, 0)
+TextButton_9.Size = UDim2.new(0, 188, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Team HHHHH Decal"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_10.BackgroundTransparency = 0.300
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.668020964, 0, 0.557894766, 0)
+TextButton_10.Size = UDim2.new(0, 188, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Team HHHHH sky"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+lul.Name = "lul"
+lul.Parent = Frame
+lul.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+lul.BackgroundTransparency = 0.300
+lul.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lul.BorderSizePixel = 0
+lul.Position = UDim2.new(0.668020964, 0, 0.768421054, 0)
+lul.Size = UDim2.new(0, 188, 0, 50)
+lul.Font = Enum.Font.SourceSans
+lul.Text = "Ro-Xploit 5.0"
+lul.TextColor3 = Color3.fromRGB(255, 255, 255)
+lul.TextScaled = true
+lul.TextSize = 14.000
+lul.TextWrapped = true
+lul.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
+end)
+
+-- Scripts:
+
+local function EDMURLR_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=17084271292" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=17084271292"
+					Two.Texture = "http://www.roblox.com/asset/?id=17084271292"
+					Three.Texture = "http://www.roblox.com/asset/?id=17084271292"
+					Four.Texture = "http://www.roblox.com/asset/?id=17084271292"
+					Five.Texture = "http://www.roblox.com/asset/?id=17084271292"
+					Six.Texture = "http://www.roblox.com/asset/?id=17084271292"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(EDMURLR_fake_script)()
+local function DLAYSBA_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	function onClick()
+		local lmao		= Instance.new("Sound")
+		lmao.Parent		= game:GetService("Workspace")
+		lmao.SoundId		= "rbxassetid://1836724807"
+		lmao.Playing		= true
+		lmao.Looped		= true
+		lmao.Pitch      = 1.5
+		lmao.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(DLAYSBA_fake_script)()
+local function RYUIHF_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=17084271292"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=17084271292"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=17084271292"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=17084271292"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=17084271292"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=17084271292"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(RYUIHF_fake_script)()
+local function XCIZLF_fake_script() -- TextButton_4.ServerEventHandler 
+	local script = Instance.new('Script', TextButton_4)
+
+	function click()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if v.Character:FindFirstChild("Head") then
+				gui1=Instance.new("BillboardGui")
+				gui1.Parent = v.Character.Head
+				gui1.Adornee = v.Character.Head
+				gui1.Size=UDim2.new(2.5,0,2.5,0)
+				gui1.StudsOffset=Vector3.new(0,0.2,0)
+				gui1.AlwaysOnTop = true
+				text1=Instance.new("ImageLabel")
+				text1.Image = "http://www.roblox.com/asset/?id=16874072354"
+				text1.Size=UDim2.new(1,0,1,0)
+				text1.Position=UDim2.new(0,0,0,0)
+				text1.BackgroundTransparency = 1
+				text1.Parent=gui1
+				v.Character.Head.Transparency = 1
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(XCIZLF_fake_script)()
+local function ABSEF_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local m = Instance.new("Message",workspace)
+		m.Text = "Haxxed by Team HHHHHHHHHHHHHHH"
+		wait(5)
+		m:Destroy()
+	end)
+	
+end
+coroutine.wrap(ABSEF_fake_script)()
+local function WOUIVBZ_fake_script() -- ClearallChildren.Script 
+	local script = Instance.new('Script', ClearallChildren)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players:ClearAllChildren()
+	end)
+end
+coroutine.wrap(WOUIVBZ_fake_script)()
+local function OMLU_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=15433970940"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=15433970940"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=15433970940"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=15433970940"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=15433970940"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=15433970940"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(OMLU_fake_script)()
+local function GRLQZ_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=15433970940" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=15433970940"
+					Two.Texture = "http://www.roblox.com/asset/?id=15433970940"
+					Three.Texture = "http://www.roblox.com/asset/?id=15433970940"
+					Four.Texture = "http://www.roblox.com/asset/?id=15433970940"
+					Five.Texture = "http://www.roblox.com/asset/?id=15433970940"
+					Six.Texture = "http://www.roblox.com/asset/?id=15433970940"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(GRLQZ_fake_script)()
+local function DSJNHR_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	function onClick()
+		local lmao		= Instance.new("Sound")
+		lmao.Parent		= game:GetService("Workspace")
+		lmao.SoundId		= "rbxassetid://6151553097"
+		lmao.Playing		= true
+		lmao.Looped		= true
+		lmao.Pitch      = 1.5
+		lmao.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(DSJNHR_fake_script)()
+local function FWIKGV_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=17110031023" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=17110031023"
+					Two.Texture = "http://www.roblox.com/asset/?id=17110031023"
+					Three.Texture = "http://www.roblox.com/asset/?id=17110031023"
+					Four.Texture = "http://www.roblox.com/asset/?id=17110031023"
+					Five.Texture = "http://www.roblox.com/asset/?id=17110031023"
+					Six.Texture = "http://www.roblox.com/asset/?id=17110031023"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(FWIKGV_fake_script)()
+local function YGVMT_fake_script() -- TextButton_10.Script 
+	local script = Instance.new('Script', TextButton_10)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=17110031023"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=17110031023"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=17110031023"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=17110031023"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=17110031023"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=17110031023"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(YGVMT_fake_script)()
